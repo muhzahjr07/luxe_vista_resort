@@ -81,14 +81,24 @@ A comprehensive hotel and resort management Android application built with Java 
 
 The app includes the following main screens:
 1. **Login Screen**: Clean login interface with email/password fields
+   ![Login Screen](screenshots/login.png)
 2. **Registration Screen**: User registration with validation
+   ![Registration Screen](screenshots/register.png)
 3. **Main Dashboard**: Navigation hub with resort information
+   ![Main Dashboard](screenshots/dashboard.png)
 4. **Rooms List**: Browse available rooms with filtering
+   ![Rooms List](screenshots/rooms_list.png)
 5. **Room Details**: Detailed room view with booking functionality
+   ![Room Details](screenshots/room_detail.png)
 6. **Services List**: Browse resort services by category
+   ![Services List](screenshots/services_list.png)
 7. **Service Details**: Service information with booking options
+   ![Service Details](screenshots/service_detail.png)
 8. **My Bookings**: View all reservations in one place
+   ![My Bookings](screenshots/my_bookings.png)
 9. **Resort Info**: Comprehensive resort information and contact
+   ![Resort Info](screenshots/resort_info.png)
+
 
 ## 🚀 Getting Started
 
