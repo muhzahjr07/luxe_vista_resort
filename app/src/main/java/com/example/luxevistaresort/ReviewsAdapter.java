@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class ReviewsAdapter extends BaseActivity {
+public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.VH> {
     private final List<Review> data;
 
     public ReviewsAdapter(List<Review> data) {

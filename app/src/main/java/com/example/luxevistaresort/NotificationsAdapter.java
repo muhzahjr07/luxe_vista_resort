@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class NotificationsAdapter extends BaseActivity {
+public class NotificationsAdapter extends RecyclerView.Adapter<NotificationsAdapter.VH> {
     private final List<NotificationItem> data;
 
     public NotificationsAdapter(List<NotificationItem> data) {

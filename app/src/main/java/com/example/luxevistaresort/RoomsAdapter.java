@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
-public class RoomsAdapter extends BaseActivity {
+public class RoomsAdapter extends RecyclerView.Adapter<RoomsAdapter.VH> {
 
     private final Context ctx;
     private List<Room> data;

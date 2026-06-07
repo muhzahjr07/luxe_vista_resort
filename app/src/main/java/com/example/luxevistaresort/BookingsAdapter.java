@@ -13,9 +13,10 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.database.Cursor;
 import java.util.List;
 
-public class BookingsAdapter extends BaseActivity {
+public class BookingsAdapter extends RecyclerView.Adapter<BookingsAdapter.VH> {
     private final Context ctx;
     private final List<Booking> data;
     private DatabaseHelper db;

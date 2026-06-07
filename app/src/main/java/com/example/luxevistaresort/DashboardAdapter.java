@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class DashboardAdapter extends BaseActivity {
+public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.ViewHolder> {
 
     private List<DashboardItem> items;
     private OnItemClickListener listener;

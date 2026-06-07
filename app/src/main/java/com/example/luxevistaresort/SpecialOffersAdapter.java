@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class SpecialOffersAdapter extends BaseActivity {
+public class SpecialOffersAdapter extends RecyclerView.Adapter<SpecialOffersAdapter.VH> {
     private final Context context;
     private final List<SpecialOffer> data;
 

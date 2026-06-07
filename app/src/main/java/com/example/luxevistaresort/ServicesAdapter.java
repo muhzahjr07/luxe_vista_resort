@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class ServicesAdapter extends BaseActivity {
+public class ServicesAdapter extends RecyclerView.Adapter<ServicesAdapter.VH> {
     private final Context ctx;
     private List<Service> data;
 

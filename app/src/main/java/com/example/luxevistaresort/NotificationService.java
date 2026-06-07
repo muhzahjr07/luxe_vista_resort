@@ -18,7 +18,7 @@ import java.util.Calendar;
 import java.util.Random;
 
 
-public class NotificationService extends BaseActivity {
+public class NotificationService extends Service {
     private static final String TAG = "NotificationService";
     private static final String CHANNEL_ID = "luxevista_notifications";
     private static final int NOTIFICATION_ID = 1;
