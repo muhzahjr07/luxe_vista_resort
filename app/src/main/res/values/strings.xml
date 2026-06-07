@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LuxeVista Resort Sri Lanka</string>
+    <string name="welcome_message">Welcome to LuxeVista Resort Sri Lanka</string>
+    <string name="login_title">Login to your account</string>
+    <string name="register_title">Create your account</string>
+    <string name="rooms_title">Our Rooms</string>
+    <string name="services_title">Resort Services</string>
+    <string name="bookings_title">My Bookings</string>
+    <string name="info_title">Resort Information</string>
+    <string name="booking_success">Booking successful!</string>
+    <string name="booking_failed">Booking failed. Please try again.</string>
+    <string name="login_required">Please login to continue</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="registration_success">Account created successfully</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="all_fields_required">All fields are required</string>
+    <string name="passwords_dont_match">Passwords do not match</string>
+    <string name="invalid_email">Please enter a valid email address</string>
+</resources>

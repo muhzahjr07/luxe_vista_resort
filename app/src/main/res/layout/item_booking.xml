@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/primaryColor"
+    app:cardBackgroundColor="@color/cardBackground"
+    android:background="@drawable/booking_card_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Booking Type and Name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvBookingType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🏨 Room Booking"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/primaryColor"/>
+
+            <TextView
+                android:id="@+id/tvBookingPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$299.00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btnEditBooking"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_edit_booking"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Edit booking"
+                android:padding="4dp"
+                android:tint="@color/secondaryColor"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btnDeleteBooking"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_delete_booking"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Delete booking"
+                android:padding="4dp"
+                android:tint="@color/errorColor"/>
+
+        </LinearLayout>
+
+        <!-- Booking Name -->
+        <TextView
+            android:id="@+id/tvBookingName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room/Service Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Booking Dates -->
+        <TextView
+            android:id="@+id/tvBookingDate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check-in: 2024-01-15"
+            android:textSize="12sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvBookingDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check-out: 2024-01-17"
+            android:textSize="12sp"
+            android:textColor="@color/textSecondary"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

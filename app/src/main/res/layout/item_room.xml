@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/cardBackground"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/dividerColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Room Name and Price -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvRoomName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Room Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/textPrimary"/>
+
+            <TextView
+                android:id="@+id/tvRoomPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$299/night"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/secondaryColor"/>
+
+        </LinearLayout>
+
+        <!-- Room Description -->
+        <TextView
+            android:id="@+id/tvRoomDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room description goes here..."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <!-- Amenities -->
+        <TextView
+            android:id="@+id/tvRoomAmenities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amenities: WiFi, AC, TV"
+            android:textSize="12sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <!-- Capacity -->
+        <TextView
+            android:id="@+id/tvRoomCapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👥 2 guests"
+            android:textSize="12sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Book Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBookRoom"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Details &amp; Book"
+            android:textAllCaps="false"
+            app:cornerRadius="12dp"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

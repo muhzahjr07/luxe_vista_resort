@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    
+    <!-- Forest Ground -->
+    <path
+        android:fillColor="@color/warmBrown"
+        android:pathData="M0,20 Q8,16 16,20 T32,20 L32,32 L0,32 Z" />
+    
+    <!-- Tree Trunk -->
+    <path
+        android:fillColor="@color/earthBrown"
+        android:pathData="M14,12 L18,12 L18,20 L14,20 Z" />
+    
+    <!-- Tree Leaves -->
+    <path
+        android:fillColor="@color/sageGreen"
+        android:pathData="M16,12 Q12,8 10,10 Q14,6 16,8 Q18,6 22,10 Q20,8 16,12 Z" />
+    
+    <!-- Resort Building -->
+    <path
+        android:fillColor="@color/surfaceColor"
+        android:pathData="M4,16 L8,16 L8,20 L4,20 Z" />
+    
+    <!-- Building Roof -->
+    <path
+        android:fillColor="@color/luxuryGold"
+        android:pathData="M3,16 L9,16 L6,14 Z" />
+    
+    <!-- Sun -->
+    <path
+        android:fillColor="@color/amberGold"
+        android:pathData="M24,8 Q26,6 28,8 Q26,10 24,8 Q22,10 24,8 Q22,6 24,8 Z" />
+</vector>

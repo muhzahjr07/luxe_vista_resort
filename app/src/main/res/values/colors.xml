@@ -1,0 +1,50 @@
+<resources>
+    <!-- LuxeVista Resort - Nature-Inspired Luxury Theme -->
+    <!-- Green, Gold, Brown, and White color palette for elegant resort experience -->
+    
+    <!-- Primary Colors - Rich Forest Green -->
+    <color name="primaryColor">#2E7D32</color> <!-- Forest Green -->
+    <color name="primaryColorDark">#1B5E20</color> <!-- Deep Forest Green -->
+    
+    <!-- Secondary Colors - Warm Gold -->
+    <color name="secondaryColor">#FFB300</color> <!-- Warm Gold -->
+    <color name="secondaryColorDark">#FF8F00</color> <!-- Deep Gold -->
+    
+    <!-- Background Colors - Natural Earth Tones -->
+    <color name="backgroundColor">#1A1A1A</color> <!-- Deep Charcoal Background -->
+    <color name="surfaceColor">#2D2D2D</color> <!-- Warm Dark Surface -->
+    <color name="surfaceColorLight">#3A3A3A</color> <!-- Elevated Surface -->
+    
+    <!-- Text Colors - Clean and Elegant -->
+    <color name="textPrimary">#FFFFFF</color> <!-- Pure White Text -->
+    <color name="textSecondary">#B8B8B8</color> <!-- Soft Gray Text -->
+    <color name="textTertiary">#8A8A8A</color> <!-- Muted Gray Text -->
+    
+    <!-- Accent Colors - Nature Highlights -->
+    <color name="accentColor">#8D6E63</color> <!-- Warm Brown -->
+    <color name="successColor">#4CAF50</color> <!-- Success Green -->
+    <color name="errorColor">#F44336</color> <!-- Error Red -->
+    <color name="warningColor">#FF9800</color> <!-- Warning Orange -->
+    
+    <!-- Utility Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Card and UI Elements -->
+    <color name="cardBackground">#2D2D2D</color> <!-- Card Background -->
+    <color name="dividerColor">#4A4A4A</color> <!-- Subtle Divider -->
+    <color name="borderColor">#4A4A4A</color> <!-- Border Color -->
+    
+    <!-- Gradient Colors for Premium Feel -->
+    <color name="gradientStart">#2E7D32</color> <!-- Forest Green Start -->
+    <color name="gradientEnd">#FFB300</color> <!-- Gold End -->
+    
+    <!-- Special Resort Colors -->
+    <color name="luxuryGold">#FFD700</color> <!-- Luxury Gold -->
+    <color name="warmBrown">#8D6E63</color> <!-- Warm Brown -->
+    <color name="forestGreen">#1B5E20</color> <!-- Deep Forest Green -->
+    <color name="creamWhite">#FFF8E1</color> <!-- Cream White -->
+    <color name="earthBrown">#5D4037</color> <!-- Earth Brown -->
+    <color name="sageGreen">#689F38</color> <!-- Sage Green -->
+    <color name="amberGold">#FFC107</color> <!-- Amber Gold -->
+</resources>
