@@ -5,34 +5,40 @@ A comprehensive hotel and resort management Android application built with Java 
 ## 🌟 Features
 
 ### User Authentication
+
 - **User Registration**: Create new accounts with email validation
 - **Secure Login**: Email-based authentication with session management
 - **Session Persistence**: Stay logged in across app sessions
 
 ### Room Management
+
 - **Browse Rooms**: View all available rooms with detailed information
 - **Room Details**: Comprehensive room information including amenities and capacity
 - **Room Booking**: Select check-in/check-out dates and book rooms
 - **Price Calculation**: Automatic total price calculation based on stay duration
 
 ### Service Management
+
 - **Service Catalog**: Browse resort services by category
 - **Service Details**: Detailed service information with availability and duration
 - **Service Booking**: Book services with date and time selection
 - **Category Filtering**: Services organized by Wellness, Dining, Recreation, etc.
 
 ### Booking Management
+
 - **View Bookings**: See all room and service bookings in one place
 - **Booking History**: Track past and upcoming reservations
 - **Booking Details**: Complete booking information with pricing
 
 ### Resort Information
+
 - **About Resort**: Comprehensive resort information and amenities
 - **Local Attractions**: Nearby attractions and activities
 - **Contact Information**: Direct contact options (call, email, website, location)
 - **Resort Amenities**: Complete list of available facilities
 
 ### Additional Features
+
 - **Promotional Notifications**: Special offers and promotions
 - **Material Design**: Modern, beautiful UI with consistent theming
 - **Responsive Layout**: Optimized for different screen sizes
@@ -41,6 +47,7 @@ A comprehensive hotel and resort management Android application built with Java 
 ## 🏗️ Technical Architecture
 
 ### Technology Stack
+
 - **Language**: Java (Primary), Kotlin (UI Themes)
 - **UI Framework**: Material Design Components
 - **Database**: SQLite with custom DatabaseHelper
@@ -49,6 +56,7 @@ A comprehensive hotel and resort management Android application built with Java 
 - **Min SDK**: 21 (Android 5.0+)
 
 ### Database Schema
+
 - **Users Table**: User authentication and profile data
 - **Rooms Table**: Room information, pricing, and amenities
 - **Services Table**: Service details, categories, and availability
@@ -56,6 +64,7 @@ A comprehensive hotel and resort management Android application built with Java 
 - **Service Bookings Table**: Service reservation data
 
 ### Key Components
+
 - **Activities**: LoginActivity, RegisterActivity, MainActivity, RoomsActivity, ServicesActivity, BookingsActivity, InfoActivity, RoomDetailActivity, ServiceDetailActivity
 - **Models**: Room, Service, Booking, User
 - **Adapters**: RoomsAdapter, ServicesAdapter, BookingsAdapter
@@ -64,6 +73,7 @@ A comprehensive hotel and resort management Android application built with Java 
 ## 🎨 Design System
 
 ### Color Palette
+
 - **Primary**: Teal (#00695C) - Main brand color
 - **Secondary**: Gold (#FFD740) - Accent color
 - **Background**: Light Gray (#F5F5F5) - App background
@@ -71,6 +81,7 @@ A comprehensive hotel and resort management Android application built with Java 
 - **Text**: Dark Gray (#212121) - Primary text
 
 ### UI Components
+
 - **Material Cards**: Elevated cards with rounded corners
 - **Material Buttons**: Consistent button styling with ripple effects
 - **Text Input Layouts**: Outlined text fields with validation
@@ -81,35 +92,38 @@ A comprehensive hotel and resort management Android application built with Java 
 
 The app includes the following main screens showing the mobile layout:
 
-| | |
-|:---:|:---:|
-| **Login & Onboarding** | **Main Dashboard** |
+|                                                |                                            |
+| :--------------------------------------------: | :----------------------------------------: |
+|            **Main Dashboard**            |          **Login & Onboarding**          |
 | ![Login & Onboarding](Screenshots/image%207.png) | ![Main Dashboard](Screenshots/image%208.png) |
-| **Room Booking List** | **Service Booking Catalog** |
-| ![Rooms List](Screenshots/image%209.png) | ![Services List](Screenshots/image%2010.png) |
-| **Reservation Details** | **Resort Info & Settings** |
-| ![Bookings](Screenshots/image%2011.png) | ![Resort Info](Screenshots/image%2012.png) |
-
+|          **Room Booking List**          |     **Service Booking Catalog**     |
+|     ![Rooms List](Screenshots/image%209.png)     | ![Services List](Screenshots/image%2010.png) |
+|         **Reservation Details**         |      **Resort Info & Settings**      |
+|     ![Bookings](Screenshots/image%2011.png)     |  ![Resort Info](Screenshots/image%2012.png)  |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Android Studio Arctic Fox or later
 - Android SDK 21+ (Android 5.0+)
 - Java 11+
 
 ### Installation
+
 1. Clone the repository
 2. Open in Android Studio
 3. Sync project with Gradle files
 4. Build and run on device/emulator
 
 ### Database Setup
+
 The app automatically creates the database and populates it with sample data on first launch. No manual setup required.
 
 ## 📊 Sample Data
 
 The app comes pre-loaded with:
+
 - **6 Room Types**: From budget-friendly to luxury suites
 - **6 Service Categories**: Spa, dining, water sports, tours, concierge, transportation
 - **Realistic Pricing**: Competitive resort pricing structure
@@ -118,16 +132,19 @@ The app comes pre-loaded with:
 ## 🔧 Customization
 
 ### Adding New Rooms
+
 1. Modify the `insertSampleData()` method in `DatabaseHelper.java`
 2. Add room details to the rooms array
 3. Rebuild the app
 
 ### Adding New Services
+
 1. Update the services array in `insertSampleData()` method
 2. Add service categories as needed
 3. Rebuild the app
 
 ### Styling Changes
+
 1. Modify colors in `res/values/colors.xml`
 2. Update themes in `res/values/themes.xml`
 3. Customize layouts in `res/layout/` directory
